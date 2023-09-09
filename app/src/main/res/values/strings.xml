@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tictactoe</string>
+    <string name="hint_heading">TIC TAC TOE</string>
+    <string name="hint_newgame">New Game</string>
+    <string name="hint_splash">TIC TAC TOE</string>
+    <string name="hint_splash2">Loading....</string>
+
+</resources>

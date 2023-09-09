@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#C94690"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_heading"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/headcol"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/CurrentPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/_95sdp"
+            android:id="@+id/btn1"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:textSize="40dp"
+            android:background="#FFFFFFFF"
+            android:onClick="Check"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn2"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:textSize="40dp"
+            android:background="#FFFFFFFF"
+            android:layout_margin="@dimen/_3sdp"
+            android:onClick="Check"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn3"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:textSize="40dp"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="#FFFFFFFF"
+            android:onClick="Check"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:textSize="40dp"
+            android:background="#FFFFFFFF"
+            android:onClick="Check"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn5"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:textSize="40dp"
+            android:background="#FFFFFFFF"
+            android:onClick="Check"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn6"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:textSize="40dp"
+            android:background="#FFFFFFFF"
+            android:onClick="Check"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn7"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:textSize="40dp"
+            android:background="#FFFFFFFF"
+            android:layout_margin="@dimen/_3sdp"
+            android:onClick="Check"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn8"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:textSize="40dp"
+            android:background="#FFFFFFFF"
+            android:onClick="Check"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn9"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:textSize="40dp"
+            android:background="#FFFFFFFF"
+            android:onClick="Check"/>
+
+    </GridLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn11"
+        android:layout_margin="10dp"
+        android:onClick="Check"
+        android:text="@string/hint_newgame"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_btn_bg"/>
+</LinearLayout>
+
+
+
