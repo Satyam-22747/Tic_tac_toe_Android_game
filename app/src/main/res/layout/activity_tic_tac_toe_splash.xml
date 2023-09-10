@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#252424"
+    android:background="#FDD835"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".TicTacToeSplash">
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/hint_splash"
         android:textStyle="bold"
-        android:textColor="@color/headcol"
+        android:textColor="@color/backgrounf"
         android:textSize="40sp">
 
     </TextView>
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:text="@string/hint_splash2"
         android:textStyle="bold"
-        android:textColor="@color/headcol"
+        android:textColor="@color/backgrounf"
         android:textSize="30sp">
 
     </TextView>
